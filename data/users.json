@@ -1,0 +1,60 @@
+[
+    {
+      "id": "DP001",
+      "name": "John Smith",
+      "role": "delivery_personnel",
+      "email": "jsmith@example.com",
+      "password": "hashed_password"
+    },
+    {
+        "id": "DP002",
+        "name": "Jane Doe",
+        "role": "delivery_personnel",
+        "email": "jdoe@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": "DP003",
+        "name": "Alex Johnson",
+        "role": "delivery_personnel",
+        "email": "ajohnson@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": "DP004",
+        "name": "Michael Brown",
+        "role": "delivery_personnel",
+        "email": "mbrown@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": "DP005",
+        "name": "Emily Davis",
+        "role": "delivery_personnel",
+        "email": "edavis@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": "DP006",
+        "name": "Chris Wilson",
+        "role": "delivery_personnel",
+        "email": "cwilson@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": "DP007",
+        "name": "Charles Young",
+        "role": "delivery_personnel",
+        "email": "cyoung@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": "DP008",
+        "name": "Susan Green",
+        "role": "delivery_personnel",
+        "email": "sgreen@example.com",
+        "password": "hashed_password"
+      }
+
+  ]
+  

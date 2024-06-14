@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <link rel="stylesheet" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Public+Sans:wght@400;500;700;900" />
+  <title>logistics</title>
+  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+  <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='--select-button-svg: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(100,119,135)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e"); font-family: "Public Sans", "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+      <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f4] px-10 py-3">
+        <div class="flex items-center gap-4 text-[#111517]">
+          <div class="size-4">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_6_330)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z"
+                  fill="currentColor"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_6_330"><rect width="48" height="48" fill="white"></rect></clipPath>
+              </defs>
+            </svg>
+          </div>
+          <h2 class="text-[#111517] text-lg font-bold leading-tight tracking-[-0.015em]">Delivr</h2>
+        </div>
+        <div class="flex flex-1 justify-end gap-8">
+          <div class="flex items-center gap-9">
+            <a class="text-[#111517] text-sm font-medium leading-normal" href="/pending">Pending</a>
+            <a class="text-[#111517] text-sm font-medium leading-normal" href="/completed" id="completed-link">Completed</a>
+            <a class="text-[#111517] text-sm font-medium leading-normal" href="/logout">Logout</a>
+          </div>
+          <div class="flex gap-2">
+            <button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f0f2f4] text-[#111517] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+              <div class="text-[#111517]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f0f2f4] text-[#111517] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+              <div class="text-[#111517]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        <a href="/profile"><div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://cdn.usegalileo.ai/stability/5f8fd45e-d2b4-49a0-a97f-07f3ffdde0fa.png");'></div></a>
+        </div>
+      </header>
+      <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+        <div class="layout-content-container flex flex-col w-80">
+          <h2 class="text-[#111517] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Delivery</h2>
+          <div class="flex items-center gap-4 bg-white px-4 min-h-14"><p class="text-[#111517] text-base font-normal leading-normal flex-1 truncate"><a href="/pending">Pending</a></p></div>
+          <div class="flex items-center gap-4 bg-white px-4 min-h-14"><p class="text-[#111517] text-base font-normal leading-normal flex-1 truncate"><a href="/completed">Completed</a></p></div>
+          <div class="flex items-center gap-4 bg-white px-4 min-h-14"><p class="text-[#111517] text-base font-normal leading-normal flex-1 truncate"><a href="/profile">Profile</a></p></div>
+        </div>
+        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+          <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#111517] tracking-light text-[32px] font-bold leading-tight min-w-72">Completed orders</p></div>
+          <div id="completed-orders-container" class="grid grid-cols-1 gap-4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('/completed-deliveries')
+        .then(response => response.json())
+        .then(data => {
+          const pendingOrdersContainer = document.getElementById('completed-orders-container');
+          pendingOrdersContainer.innerHTML = '';
+          if (data.length === 0) {
+            pendingOrdersContainer.innerHTML = '<p class="text-[#111517] text-base font-normal leading-normal px-4">No Completed deliveries.</p>';
+          } else {
+            data.forEach(delivery => {
+              const deliveryDiv = document.createElement('div');
+              deliveryDiv.classList.add('flex', 'items-center', 'gap-4', 'bg-white', 'px-4', 'min-h-14', 'py-2', 'justify-between');
+              deliveryDiv.innerHTML = `
+                <div class="flex flex-col flex-1">
+                  <p class="text-[#111517] text-base font-normal leading-normal">Delivery ID: ${delivery.deliveryID}</p>
+                  <p class="text-[#111517] text-base font-normal leading-normal">Delivery Time: ${delivery.DeliveryTime}</p>
+                  <p class="text-[#111517] text-base font-normal leading-normal">Address: ${delivery.Address}</p>
+                  <p class="text-[#111517] text-base font-normal leading-normal">Status: ${delivery.status}</p>
+                </div>
+                <button class="text-white bg-blue-500 px-4 py-2 rounded">Update</button>
+              `;
+              pendingOrdersContainer.appendChild(deliveryDiv);
+            });
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching pending deliveries:', error);
+        });
+    });
+
+    
+  </script>
+</body>
+</html>
